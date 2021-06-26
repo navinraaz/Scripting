@@ -1,0 +1,41 @@
+Hive Questions
+==============
+1. Managed Table and External Table
+2. Partitioning
+3. Bucketing
+4. Hive data types -> Simple and complex
+5. Timestamp and date data type
+6. Architecture of spark
+7. Diffrent types of join algorithem -> MapSide join, bucket join, SortMergeBucket Join
+8. Hive and HBase data exchange
+9. Different files types in Spark - TextFile,ORC,AVRO,PARQUET
+10. Loading of diffent file format-(XML,JSON,TEXT) in Hive table
+11. Serde in Hive
+12. Variable definition in hive using hiveconf
+13. default location where hive store the table
+14. set hive.mapred.mode = strict;
+15. poseexplode and explode function
+16. Difference between like and rlike
+17. Carstesian Join in Hive
+18. sort by, order by, cluster by,distribute by
+19.  /*streamtable(table_name)*/
+20. UDF
+21. TBL Properties
+22. Transactional and no transactional table
+23. ObjectInspector Method 
+24. how to remove header from csv files
+25. Sampling in hive
+26. Explain query
+27. explode function
+
+Scala Questions
+===============
+1. yield function
+2. list vs tuple
+3. any vs unit vs option
+4. 
+
+hive - S -e “Your Hive Query;” - This runs the hive query. Here -S represents the silent mode, which means that you won’t be having the log files on your screen. You’ll get the result directly.
+echo “hive -S -e “Your Hive Query;”” - This will print the query result on the shell.
+var=`hive “hive -S -e “Your Hive Query;”` - This assigns the query result to a variable.
+hive - S -e “Your Hive Query;” > file - This directs the output of the query to a file.
